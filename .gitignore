@@ -1,0 +1,101 @@
+############################
+# OS
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# IDE / Editors
+############################
+.vscode/
+.idea/
+*.iml
+
+############################
+# Env / Secrets
+############################
+.env
+.env.*
+*.local
+
+############################
+# Logs
+############################
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################
+# Misc
+############################
+*.swp
+*.swo
+
+
+############################
+# Flutter
+############################
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.melos_tool/
+
+# Android
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/app/key.properties
+**/android/.cxx/
+**/android/app/*.keystore
+**/android/app/*.jks
+
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/Flutter/ephemeral/
+
+# Web
+**/build/web/
+**/.firebase/
+**/firebase.json
+**/.firebaserc
+
+# Linux / Windows
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Coverage
+coverage/
+
+
+############################
+# Node backend (tazaqala-backend)
+############################
+
+tazaqala-backend/node_modules/
+tazaqala-backend/dist/
+tazaqala-backend/build/
+tazaqala-backend/.cache/
+tazaqala-backend/.nyc_output/
+tazaqala-backend/coverage/
+tazaqala-backend/.pm2/
+tazaqala-backend/logs/
+
+tazaqala-backend/.env
+tazaqala-backend/.env.*
+tazaqala-backend/*.local
+tazaqala-backend/*.log
